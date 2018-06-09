@@ -4,8 +4,14 @@ python-study
 ## 常用命令
 ```shell
 #安装/卸载包
+https://pypi.org/search/?q=urllib
 pip install numpy
 pip uninstall numpy
+pip install selenium
+
+pip install urllib3
+pip install httplib2
+
 ```
 
 ## pip镜像配置
