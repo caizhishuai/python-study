@@ -53,3 +53,10 @@ trusted-host=mirrors.aliyun.com
 ## chromedriver与chrome版本关系对照表:https://blog.csdn.net/huilan_same/article/details/51896672
 ## 解压后放到目录下即可:C:\tool\Python36\chromedriver.exe
 ```
+
+## Python作用域问题
+```shell
+在局部找不到，便会去局部外的局部找（例如闭包），再找不到就会去全局找，再者去内建中找。
+
+Python 中只有模块（module），类（class）以及函数（def、lambda）才会引入新的作用域，其它的代码块（如 if/elif/else/、try/except、for/while等）是不会引入新的作用域的，也就是说这些语句内定义的变量，外部也可以访问
+```
