@@ -59,4 +59,9 @@ trusted-host=mirrors.aliyun.com
 在局部找不到，便会去局部外的局部找（例如闭包），再找不到就会去全局找，再者去内建中找。
 
 Python 中只有模块（module），类（class）以及函数（def、lambda）才会引入新的作用域，其它的代码块（如 if/elif/else/、try/except、for/while等）是不会引入新的作用域的，也就是说这些语句内定义的变量，外部也可以访问
+
+修改变量作用域：
+global 和 nonlocal关键字
+global关键字用于在函数体内修改全局变量时用到
+nonlocal关键字用在inner函数体内修改变量值则外部定义的变量被修改/n没有加nonlocal的，inner内值被修改，外部不起作用
 ```
