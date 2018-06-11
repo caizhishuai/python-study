@@ -30,6 +30,9 @@ pip install selenium
 pip install urllib3
 pip install httplib2
 
+pip install jupyter
+jupyter notebook
+
 ```
 
 ## pip镜像配置
@@ -65,3 +68,4 @@ global 和 nonlocal关键字
 global关键字用于在函数体内修改全局变量时用到
 nonlocal关键字用在inner函数体内修改变量值则外部定义的变量被修改/n没有加nonlocal的，inner内值被修改，外部不起作用
 ```
+
