@@ -4,7 +4,7 @@ python-study
 ## 格式化代码
 ```shell
 Ctrl+Alt+L
-```shell
+```
 
 ## 常用命令
 ```shell
