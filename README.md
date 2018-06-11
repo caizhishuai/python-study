@@ -6,7 +6,7 @@ python-study
 Ctrl+Alt+L
 ```
 
-##网络爬虫学习课程大放送
+## 网络爬虫学习课程大放送
 ```shell
 Python3.6网络爬虫实战案例(基础+实战+框架+分布式)
 网盘地址： https://pan.baidu.com/s/1dGOhvrF 密码：dqd8
