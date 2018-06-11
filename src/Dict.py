@@ -45,7 +45,7 @@ cities = {
 }
 
 print(cities['北京']['密云'])
-
+'''
 for c in cities:
     print(c)
 
@@ -53,3 +53,65 @@ a, b = 0, 1
 while b < 10:
     print(b)
     a, b = b, a + b
+
+i=0
+while True:
+    i=i+1
+    print(b, end=',')
+    a, b = b, a + b
+    if i==100:
+        break
+
+age = int(input("请输入年龄:"))
+if age>1:
+    print("输入的年龄大于1")
+elif age==1:
+    print("输入的年龄等于1")
+else:
+    print("输入的年龄小于1")
+
+
+count=1
+while count<5:
+    print(count,' 小于5')
+    count=count+1
+else:
+    print(count)
+
+flag = 1
+while (flag): print('欢迎访问菜鸟教程!')
+print("Good bye!")
+'''
+for i in range(5,100,2):
+    print(i)
+
+for i in range(5,100):
+    print(i)
+
+for i in range(5):
+    print(i)
+
+for i in range(-10, -100, -30) :
+    print(i)
+
+for letter in 'Runoob':  # 第一个实例
+    if letter == 'o':
+        continue
+    print('当前字母为 :', letter)
+
+var = 10  # 第二个实例
+while var > 0:
+    print('当期变量值为 :', var)
+    var = var - 1
+    if var == 5:
+        break
+
+print("Good bye!")
+
+for letter in 'Runoob':
+    if letter == 'o':
+        pass
+        print('执行 pass 块')
+    print('当前字母 :', letter)
+
+print("Good bye!")
