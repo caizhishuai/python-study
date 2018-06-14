@@ -21,6 +21,6 @@ def fib2(n): # 返回到 n 的斐波那契数列
 
 def HaveFun():
     if __name__ == '__main__':
-        print('I am in my domain,my name is %s' % __name__)
+        print('运行的模块是 %s' % __name__)
     else:
-        print('Someone else calls me!,my name is %s' % __name__)
+        print('运行的模块是 %s' % __name__)

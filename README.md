@@ -68,4 +68,12 @@ global 和 nonlocal关键字
 global关键字用于在函数体内修改全局变量时用到
 nonlocal关键字用在inner函数体内修改变量值则外部定义的变量被修改/n没有加nonlocal的，inner内值被修改，外部不起作用
 ```
+## 安装
+```shell
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted 下载twisted对应版本的whl文件（如我的Twisted‑17.5.0‑cp36‑cp36m‑win_amd64.whl），cp后面是python版本，amd64代表64位，运行命令：
+pip install C:\Users\CR\Downloads\Twisted-17.5.0-cp36-cp36m-win_amd64.whl
+其中install后面为下载的whl文件的完整路径名
+安装完成后，再次运行：
+pip install Scrapy
+```
 
