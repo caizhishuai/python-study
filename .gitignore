@@ -1,1 +1,4 @@
 /.idea
+/build
+/dist
+/python_study.egg-info

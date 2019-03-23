@@ -9,7 +9,10 @@ function del_build_cache(){
 }
 
 #打包成WHEEL格式
-python ./setup.py bdist_wheel
+#python ./setup.py bdist_wheel
+
+#windows打包格式
+#python setup.py bdist_wininst
 
 #卸载已存在的包
 pip uninstall -y ${pkg_name}
@@ -20,4 +23,4 @@ pip install ./dist/${pkg_name}-0.0.1-py2-none-any.whl
 #删除临时文件
 del_build_cache
 
-python -u ${pkg_name}.main
+python -m ${pkg_name}.main
