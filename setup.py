@@ -23,5 +23,5 @@ setup(
     ],
 
     include_package_data=True,
-    exclude_package_date={'': ['.gitignore']}
+    exclude_package_data={'': ['.gitignore']}
 )
